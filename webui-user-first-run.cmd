@@ -9,7 +9,7 @@ set path=git\cmd;python
 
 git init .
 git remote add origin https://github.com/AUTOMATIC1111/stable-diffusion-webui.git
-git pull origin master
+git pull origin dev
 
 python -m venv venv
 call venv\scripts\activate.bat
