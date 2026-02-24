@@ -16,6 +16,7 @@ call venv\scripts\activate.bat
 
 python -m pip install --upgrade pip
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
+pip install git+https://github.com/openai/CLIP.git
 
 call venv\scripts\deactivate.bat
 
